@@ -1,4 +1,4 @@
-# planetary-coverage
+# Planetary-coverage
 
 ## Description
 - **Main Functionality**: Python library for computing planetary surface coverage statistics.
@@ -8,4 +8,4 @@
 - **Version**: planetary-coverage 1.1 or higher.
 
 ## Links and Resources
-- **GitHub Repository**: [planetary-coverage documentation](https://docs.planetary-coverage.org/)
+- **Official Documentation**: [Planetary-coverage Documentation](https://docs.planetary-coverage.org/)

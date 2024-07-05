@@ -8,4 +8,4 @@
 - **Version**: spiceypy 6.0 or higher.
 
 ## Links and Resources
-- **GitHub Repository**: [spiceypy on GitHub](https://github.com/AndrewAnnex/SpiceyPy)
+- **Official Documentation**: [Spiceypy Documentation](https://spiceypy.readthedocs.io/)
