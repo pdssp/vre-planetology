@@ -8,4 +8,4 @@
 - **Version**: planetary-coverage 1.1 or higher.
 
 ## Links and Resources
-- **GitHub Repository**: [planetary-coverage on GitHub](https://github.com/username/repository)
+- **GitHub Repository**: [planetary-coverage documentation](https://docs.planetary-coverage.org/)
