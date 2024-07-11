@@ -3,7 +3,7 @@
 ## Description
 - **Main Functionality**: Fiona is a Python library for reading and writing vector data.
 - **Use in Planetology**: Useful for handling and analyzing vector data related to planetary features or boundaries.
-- 
+  
 ## Technical Requirements
 - **Dependencies**: Gdal
 
