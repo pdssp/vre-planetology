@@ -3,7 +3,7 @@
 ## Description
 - **Main Functionality**: ipyleaflet is a Python library that provides interactive maps for the Jupyter notebook, built on top of leaflet.js.
 - **Use in Planetology**: Useful for visualizing planetary data on interactive maps, such as plotting rover paths, landing sites, or observational data on maps of other planets.
-- 
+ 
 ## Technical Requirements
 - **Dependencies**: Requires ipywidgets, traitlets, and numpy.
 
