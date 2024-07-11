@@ -38,6 +38,9 @@ Please use the following template to submit your application requirements:
 ## Links and Resources
 - **Official Documentation**: [Link to official documentation]
 - **Additional References**: [Other relevant links]
+
+## code snippet
+Small code to explain how to use it
 ```
 
 ## Issues
