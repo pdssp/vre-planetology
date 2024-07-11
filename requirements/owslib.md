@@ -8,7 +8,7 @@
 - **Dependencies**: Requires requests, python-dateutil, and other specific dependencies depending on the OGC service being accessed.
   
 ## Links and Resources
-- **Official Documentation**: [OWSlib Documentation]([https://geopandas.org/](https://owslib.readthedocs.io/))
+- **Official Documentation**: [OWSlib Documentation](https://owslib.readthedocs.io/)
 - **Additional References**: [GeoPython Tutorials](https://github.com/geopython/geopython-workshop/tree/master/workshop)
 
 ## code snippet
