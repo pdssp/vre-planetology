@@ -23,6 +23,12 @@ wmsLayer = WMSLayer(
     crs=dict(name="EPSG4326", custom=False)
 )
 
-mars_map = Map(layers=(wmsLayer, ), center=(0, 0), zoom=4, crs=dict(name="EPSG4326", custom=False))
+mars_map = Map(
+    layers=(wmsLayer, ), 
+    center=(4.5, 137.4),  # Gale Crater on Mars
+    crs=dict(name="EPSG4326", custom=False)
+)
+landing_site_marker = Marker(location=(4.5, 137.4), draggable=False)
+mars_map.add_layer(landing_site_marker)
 mars_map.add_control(LayersControl())
 mars_map
