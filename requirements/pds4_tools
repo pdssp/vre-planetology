@@ -1,0 +1,37 @@
+# PDS4_tools
+
+## Description
+- **Main Functionality**: pds4_tools is a Python library for reading, writing, and interacting with data formatted according to the NASA Planetary Data System version 4 (PDS4) standards.
+- **Use in Planetology**: Essential for accessing and analyzing planetary data stored in PDS4 format, such as data from Mars rovers, Venus missions, or other planetary observations.
+
+## Technical Requirements
+- **Dependencies**:  Requires numpy and lxml.
+
+## Links and Resources
+- **Official Documentation**: [PDS4 Documentation](https://pdssbn.astro.umd.edu/tools/pds4_tools_docs/current/user_manual.html)
+- **Additional References**: [PDS4 information](https://pds.nasa.gov/datastandards/about/)
+
+## code snippet
+
+```python
+from pds4_tools import pds4_read
+
+# Load a PDS4 data file from a Mars mission
+data = pds4_read('path/to/mars_pds4_data.xml')
+
+# Access data arrays and metadata
+arrays = data['arrays']
+metadata = data['label']
+
+# Example: Print array data and metadata
+for array_name, array_data in arrays.items():
+    print(f"Array: {array_name}")
+    print(array_data)
+
+print("Metadata:")
+print(metadata)
+
+# Perform further analysis on the data
+temperature_data = arrays['temperature']
+mean_temperature = temperature_data.mean()
+print(f"Mean temperature: {mean_temperature} K")
